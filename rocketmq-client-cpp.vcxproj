@@ -64,8 +64,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\sourcecode\RocketMQ\boost_1_56_0;D:\sourcecode\RocketMQ\rocketmq-client-cpp\include;D:\sourcecode\RocketMQ\libevent-release-2.0.22-stable\include;D:\sourcecode\RocketMQ\libevent-release-2.0.22-stable\WIN32-Code\;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\common;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\consumer;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\log;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\message;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\producer;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\protocol;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\thread;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src\transport;D:\sourcecode\RocketMQ\jsoncpp-0.10.6\include;D:\sourcecode\RocketMQ\rocketmq-client-cpp\src;D:\sourcecode\RocketMQ\rocketmq-client-cpp\libs\signature\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\sourcecode\RocketMQ\boost_1_56_0\stage\lib;C:\jsoncpp;C:\libevent\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(WindowsSdk_71A_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)thirdparty\boost_1_58_0;$(SolutionDir)include;$(SolutionDir)thirdparty\libevent-release-2.0.22\include;$(SolutionDir)thirdparty\libevent-release-2.0.22\WIN32-Code\;$(SolutionDir)src\common;$(SolutionDir)src\consumer;$(SolutionDir)src\log;$(SolutionDir)src\message;$(SolutionDir)src\producer;$(SolutionDir)src\protocol;$(SolutionDir)src\thread;$(SolutionDir)src\transport;$(SolutionDir)thirdparty\jsoncpp-0.10.6\;$(SolutionDir)src;$(SolutionDir)libs\signature\include;$(VC_IncludePath)</IncludePath>
+    <LibraryPath>$(WindowsSdk_71A_LibraryPath_x86);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(SolutionDir)thirdparty\boost_1_58_0\stage\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -74,7 +74,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;ROCKETMQCLIENT_EXPORTS;_WIN32_WINNT=0x601;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ROCKETMQCLIENT_EXPORTS;_WIN32_WINNT=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -84,13 +84,13 @@
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>libevent.lib;libevent_core.lib;libevent_extras.lib;jsoncpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;$(SolutionDir)$(Configuration)\libevent.lib;$(SolutionDir)$(Configuration)\jsoncpp_lib_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;ROCKETMQCLIENT_EXPORTS;_WIN32_WINNT=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ROCKETMQCLIENT_EXPORTS;_WIN32_WINNT=0x501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
