@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="strlcpy.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent_filter.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent_pair.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent_ratelim.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent_sock.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="event.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="evmap.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="evthread.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="evutil.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="evutil_rand.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="listener.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="log.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="signal.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="win32select.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="evthread_win32.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_iocp.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="event_iocp.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="bufferevent_async.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="http.c">
+      <Filter>extern</Filter>
+    </ClCompile>
+    <ClCompile Include="evdns.c">
+      <Filter>extern</Filter>
+    </ClCompile>
+    <ClCompile Include="event_tagging.c">
+      <Filter>extern</Filter>
+    </ClCompile>
+    <ClCompile Include="evrpc.c">
+      <Filter>extern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{17aae62e-a574-40aa-803c-8da53bc99577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{5cedc9de-51e8-4f2f-9cb1-87fa9e0bb6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{39502f41-8a2e-4387-88ce-c82833567eb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
