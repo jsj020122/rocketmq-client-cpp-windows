@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rocketmq-client-cpp", "rocketmq-client-cpp.vcxproj", "{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B11F823C-E33E-4167-B62C-0319F0E059F8} = {B11F823C-E33E-4167-B62C-0319F0E059F8}
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93} = {4C92DD67-8CC7-41D5-AE20-91063B4D0E93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_lib_static", "thirdparty\jsoncpp-0.10.6\jsoncpp_lib_static.vcxproj", "{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent", "thirdparty\libevent-release-2.0.22\libevent.vcxproj", "{B11F823C-E33E-4167-B62C-0319F0E059F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Debug|x64.ActiveCfg = Debug|x64
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Debug|x64.Build.0 = Debug|x64
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Debug|x86.Build.0 = Debug|Win32
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Release|x64.ActiveCfg = Release|x64
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Release|x64.Build.0 = Release|x64
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Release|x86.ActiveCfg = Release|Win32
+		{DFF2BED1-4A9E-4B0B-B1EC-F01D70457E13}.Release|x86.Build.0 = Release|Win32
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Debug|x64.ActiveCfg = Debug|x64
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Debug|x64.Build.0 = Debug|x64
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Debug|x86.Build.0 = Debug|Win32
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Release|x64.ActiveCfg = Release|x64
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Release|x64.Build.0 = Release|x64
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Release|x86.ActiveCfg = Release|Win32
+		{4C92DD67-8CC7-41D5-AE20-91063B4D0E93}.Release|x86.Build.0 = Release|Win32
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Debug|x64.ActiveCfg = Debug|x64
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Debug|x64.Build.0 = Debug|x64
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Debug|x86.Build.0 = Debug|Win32
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Release|x64.ActiveCfg = Release|x64
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Release|x64.Build.0 = Release|x64
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Release|x86.ActiveCfg = Release|Win32
+		{B11F823C-E33E-4167-B62C-0319F0E059F8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
