@@ -62,7 +62,7 @@ then there are librocketmq.a and librocketmq.so in /usr/local/lib. for use them 
 	- vs2015: libevent,jsoncpp,zlib,boost rocket-client require it
 	- git: download source code 
 	
-one key build script will automatic download dependency libraries include libevent json and boost, then it will build shared library.
+one key build script will automatic download dependency libraries include libevent json and boost,  execute follow command,then it will build shared library.
 
     win32_build.bat
 
