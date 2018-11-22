@@ -67,10 +67,10 @@ one key build script will automatic download dependency libraries include libeve
 	
 if can't get internet to download four library source files by build script, you can copy four library source files 
 (
-[zlib-1.2.3-src]("https://codeload.github.com/jsj020122/zlib-1.2.3-src/zip/master","zlib-1.2.3-src") Extract to $(rocketmq-client root dir)/thirdparty/zlib-1.2.3-src
-[libevent-release-2.0.22] ("https://codeload.github.com/jsj020122/libevent-release-2.0.22/zip/master","libevent-release-2.0.22") Extract to $(rocketmq-client root dir)/thirdparty/libevent-release-2.0.22
-[boost_1_58_0] ("https://codeload.github.com/jsj020122/boost_1_58_0/zip/master","boost_1_58_0") to $(rocketmq-client root dir)/thirdparty/boost_1_58_0
-[jsoncpp-0.10.6] ("https://codeload.github.com/jsj020122/jsoncpp-0.10.6/zip/master","jsoncpp-0.10.6") to $(rocketmq-client root dir)/thirdparty/jsoncpp-0.10.6
+[zlib-1.2.3-src](https://codeload.github.com/jsj020122/zlib-1.2.3-src/zip/master "zlib-1.2.3-src") Extract to $(rocketmq-client root dir)/thirdparty/zlib-1.2.3-src
+[libevent-release-2.0.22] (https://codeload.github.com/jsj020122/libevent-release-2.0.22/zip/master "libevent-release-2.0.22") Extract to $(rocketmq-client root dir)/thirdparty/libevent-release-2.0.22
+[boost_1_58_0] (https://codeload.github.com/jsj020122/boost_1_58_0/zip/master "boost_1_58_0") to $(rocketmq-client root dir)/thirdparty/boost_1_58_0
+[jsoncpp-0.10.6] (https://codeload.github.com/jsj020122/jsoncpp-0.10.6/zip/master "jsoncpp-0.10.6") to $(rocketmq-client root dir)/thirdparty/jsoncpp-0.10.6
 ) then execute follow command will auto use these library files to build rocketmq-client.
 	win32_build.bat build
 
