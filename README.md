@@ -64,7 +64,7 @@ then there are librocketmq.a and librocketmq.so in /usr/local/lib. for use them 
 	
 one key build script will automatic download dependency libraries include libevent json and boost, then it will build shared library.
 
-    sudo sh win32_build.bat
+    win32_build.bat
 
 	
 if can't get internet to download four library source files by build script, you can copy four library source files 
@@ -86,7 +86,7 @@ Extract to  $(rocketmq-client root dir)/thirdparty/boost_1_58_0
 Extract to  $(rocketmq-client root dir)/thirdparty/jsoncpp-0.10.6 
 then execute follow command will auto use these library files to build rocketmq-client.
 
-    sudo sh win32_build.bat
+    win32_build.bat build
 
 	
 
